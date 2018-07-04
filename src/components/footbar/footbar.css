@@ -1,0 +1,33 @@
+.footbar{
+    position: sticky;
+    background: #58606d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 79%;
+    min-height: 16vh;
+    margin-top: -46px;
+    margin-left: auto;
+}
+.food_lists{
+    flex: 12vh;
+    max-width: 90%;
+    display: flex;
+    padding-top: 27px;
+}
+
+.video_content{
+    flex: 12vh;
+    max-width: 35%;
+    background-color:white;
+    display: flex;
+}
+
+.just_video {
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.video_information{
+    padding-left: 12px;
+    padding-top: 12px;
+}

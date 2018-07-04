@@ -1,0 +1,36 @@
+{
+  "name": "verstka",
+  "version": "1.0.0",
+  "description": "maket_restaurant",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --color",
+    "build": "webpack --mode production"
+  },
+  "author": "WorldVirus",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.1.0",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react-router": "^4.3.1",
+    "semantic-ui-css": "^2.3.2",
+    "semantic-ui-rating": "^2.3.1",
+    "semantic-ui-react": "^0.81.3"
+  }
+}

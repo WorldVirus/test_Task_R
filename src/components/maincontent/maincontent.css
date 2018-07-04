@@ -1,0 +1,187 @@
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+  article {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .wrapper_layer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+  article {
+    flex: 300px;
+  }
+  .right_block{
+    flex: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .recipe{
+   
+     text-align: center;
+     justify-content: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #979ca5;
+     flex:0.5vh;
+     max-width: 7em;
+  }
+  .second{
+    flex:16vh;
+  }
+  .fresh_chicken{
+    font-size: 3em;
+    color: white;    
+    line-height: 1.5;
+}
+.fresh_chicken span{
+  background-color:#58606d;
+}
+.second p {
+  line-height: 2;
+  color: #969aa0;
+}
+
+.cover_image{
+  height: 116%;
+width: 100%;
+}  
+
+.line {
+position: absolute;
+left: 49%;
+top: 0;
+bottom: 0;
+width: 1.5px;
+background: #58606d;
+z-index: 1;
+}
+
+.left_recipe{
+letter-spacing: 5px;
+font-size: 1.1em;
+/* width: 17em; */
+height: 2em;
+
+}
+
+.line_recipe {
+width: 19em;
+position: absolute;
+height: 13em;
+
+}
+
+h3 {
+overflow: hidden;
+text-align: center;
+transform: rotate(270deg);
+}
+h3:before,
+h3:after {
+background-color: #333;
+content: "";
+display: inline-block;
+height: 1px;
+position: relative;
+vertical-align: middle;
+width: 50%;
+}
+h3:before {
+right: 0.5em;
+margin-left: -50%;
+width: 142px;
+background-color: #979ca5;
+}
+h3:after {
+left: 0.5em;
+margin-right: -50%;
+background-color: #979ca5;
+}
+
+.dinner_menu{
+width: 33%;
+position: absolute;
+display: flex;
+border-bottom: 2px solid white;
+}
+
+.left_menu{
+font-size: 6em;
+width: 43%;
+height: 103%;
+border-right: 2px solid white;
+}
+
+.left_menu span{
+color: white;
+}
+
+.right_menu{
+font-size: 3.5em;
+width: 64%;
+padding-left: 45px;
+}
+
+.right_menu span{
+color: white;
+}
+
+.social_media{
+  position: absolute;
+  font-size: 2.5em;
+   right: 0;
+   margin-top: -30px;
+}
+
+.stars_content{
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+p span{
+  color: #ffe623;
+  padding-right: 8px;
+}
+
+.avatar{
+  max-height: 50px;
+}
+
+.second ul{
+  display: flex;
+}
+
+.ava_lists{
+  padding-left: 0px;
+  max-width: 21px;
+}
+.ava_describe{
+  line-height: 1;
+  max-width: 130px;
+  font-size: 0.9em;
+  color: #58606d;
+}
+
+.ava_lists{
+  max-height: 70px;
+}
+
+.under_description{
+  padding-top: 12px;
+}
+
+.button_wrapper{
+   padding-top: 40px;
+}
