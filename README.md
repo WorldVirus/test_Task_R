@@ -1,6 +1,6 @@
-## Task from Rambler company link: https://afisha.rambler.ru/dining/
+## Task from Rambler company link: http://rests.afisha.ru/
 
-### For starting and launch:
+### For starting and launch (testing in Google Ghrome/Canary):
 
 ```
 npm i

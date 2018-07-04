@@ -26,6 +26,9 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "hamburgers": "^0.9.3",
     "lodash": "^4.17.10",
     "prop-types": "^15.6.2",
     "react-router": "^4.3.1",

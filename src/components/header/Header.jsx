@@ -3,7 +3,7 @@ import './header.css'
 import { List,Image,Icon} from 'semantic-ui-react'
 
 class Header extends Component {
-
+ 
     render() {
         return (    <div className="navbar">
         <div className="header_content">
@@ -35,10 +35,17 @@ class Header extends Component {
               </div>
                <p>Roy Cidori</p>
           </li>
-        </ul>
+          <li>  <div id="nav-icon1">
+               <span></span>
+                <span></span>
+                 <span></span>
+          </div>
+         </li>
+        </ul>  
       </nav>
     </div>
 </div>
+
        );
     }
 }
