@@ -1,6 +1,6 @@
-# Task from Rambler company link: https://afisha.rambler.ru/dining/
+## Task from Rambler company link: https://afisha.rambler.ru/dining/
 
-##For starting and launch:
+### For starting and launch:
 
 ```
 npm i
